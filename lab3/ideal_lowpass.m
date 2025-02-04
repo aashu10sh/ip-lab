@@ -1,4 +1,5 @@
-img = imread('Fig0333(a)(test_pattern_blurring_orig).tif')
+img = imread('Fig0333(a)(test_pattern_blurring_orig).tif');
+
 img_gray = im2gray(img);
 
 img_fft= fftshift(fft2(img_gray));
